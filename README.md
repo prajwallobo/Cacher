@@ -11,4 +11,25 @@ A sample application to demonstrate the download and caching of the images with 
 - Configurable total cost limit on memeory Cache
 - Cancelable download task
 
-Caching Library for images (JSON, XML Yet to be supported)
+## Usage
+
+```swift
+let url = URL(string: "url_of_your_image")
+imageView.setImage(with: url)
+```
+
+With Completion Handler
+
+```swift
+let url = URL(string: "url_of_your_image")
+imageView.setImage(with: url), completionHandler: {[weak self] (object, error, cacheType, url) in
+
+})
+```
+## Future
+- Caching Library for images (JSON, XML Yet to be supported)
+- Pod library for the Utilities file yet to be created
+
+## Installation
+- Drag and drop CacheManager.swift, Downloader.swift, ImageCache.swift, Resource.swift into your iOS Project
+
