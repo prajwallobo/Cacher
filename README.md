@@ -22,7 +22,7 @@ With Completion Handler
 
 ```swift
 let url = URL(string: "url_of_your_image")
-imageView.setImage(with: url), completionHandler: {[weak self] (object, error, cacheType, url) in
+imageView.setImage(with: url), completionHandler: {(object, error, cacheType, url) in
 
 })
 ```
