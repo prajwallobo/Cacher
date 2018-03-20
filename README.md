@@ -3,6 +3,10 @@
 ## Introduction
 A sample application to demonstrate the download and caching of the images with given URL
 
+## Screenshot
+![Photo Viewer](/Screenshots/PhotoView.jpeg)
+![User board](/Screenshots/UserList.jpeg)
+
 ## Features
 - Asynchronous image downloading and caching
 - URLSession based networking
