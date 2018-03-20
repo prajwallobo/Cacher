@@ -4,8 +4,9 @@
 A sample application to demonstrate the download and caching of the images with given URL
 
 ## Screenshot
-![Photo Viewer](/Screenshots/PhotoView.jpeg)
-![User board](/Screenshots/UserList.jpeg)
+![User board](/Screenshot/UserList.jpg)
+![Photo Viewer](/Screenshot/PhotoView.jpg)
+
 
 ## Features
 - Asynchronous image downloading and caching
